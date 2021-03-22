@@ -1,0 +1,14 @@
+Senaryo:
+Elimizde art arda tekrarlayan harflerin çok sık karşılaşıldığı stringler var. Bu alfabetik stringlerin içindeki n kere tekrarlayan harfleri "harf+n" formatına dönüştürerek sıkıştırmak istiyoruz.
+
+Bu kuralı boşluklara uygulamıyoruz, ancak ardışık boşluklar varsa bunu tek boşluğa indiriyoruz.
+
+Örnekler:
+"aaaa" -> "a4"
+"abb" -> "a1b2"
+"abbb cc a" -> "a1b3 c2 a1"
+"bbbaaacddddee" -> "b3a3c1d4e2"
+"a   b" -> "a1 b1"
+
+Beklenti:
+Yukarıdaki senaryoya uygun bir çözüm üretiniz.
